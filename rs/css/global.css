@@ -1,0 +1,27 @@
+.navbar-custom {
+    background-color: #FFD580; /* Light orange */
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #8B4513; /* Darker brown for text */
+}
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+    color: #A0522D; /* Slightly lighter brown for hover state */
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 720px; /* Increase carousel height to 720px */
+}   
+
+body {
+    background-color: #FFF5E6; /* Very light cream color */
+}
+.container-fluid {
+    max-width: 1600px; /* Limit page width to 1600px */
+}
+
+h1 {
+    background-color: #FFF5E6;
+}
+
