@@ -10,8 +10,9 @@
     color: #A0522D; /* Slightly lighter brown for hover state */
 }
 .carousel-item img {
-    object-fit: cover;
-    height: 720px; /* Increase carousel height to 720px */
+    object-fit: contain;
+    max-height: 720px; /* Increase carousel height to 720px */
+    max-width: 1600;
 }   
 
 body {
@@ -22,6 +23,6 @@ body {
 }
 
 h1 {
-    background-color: #FFF5E6;
+    background-color: #FFEECC;
 }
 
